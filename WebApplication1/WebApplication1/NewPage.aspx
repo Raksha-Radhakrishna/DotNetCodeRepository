@@ -6,11 +6,42 @@
 <head runat="server">
     <title></title>
 </head>
+<script type="text/javascript">
+function fun(){
+alert ('Please contact your admin');
+
+}
+</script>
 <body>
-    <form id="form1" runat="server">
-    <div>
-    Hey Added A New Page
+  
+  <form class="modal-content animate"  method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="Img/Welcome.PNG"  class="avatar"/>
     </div>
-    </form>
+
+    <div class="container">
+      <label for="uname"><b>FirstName</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" >
+
+
+      <label for="psw"><b>LastName</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" >
+            <label for="psw"><b>Address</b></label>
+      <input type="password" placeholder="Enter Password" name="address" >
+            <label for="psw"><b>E-mail</b></label>
+      <input type="password" placeholder="Enter Password" name="email" >
+        
+      <button type="submit" onclick="fun()">CreateAccount</button>
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      
+    </div>
+  </form>
+  
+
+
 </body>
 </html>

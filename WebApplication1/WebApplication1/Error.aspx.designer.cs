@@ -11,7 +11,7 @@ namespace WebApplication1
 {
 
 
-    public partial class Welcome
+    public partial class Error
     {
 
         /// <summary>
