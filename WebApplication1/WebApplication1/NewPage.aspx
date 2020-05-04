@@ -27,7 +27,7 @@ alert ('Please contact your admin');
 
       <label for="psw"><b>LastName</b></label>
       <input type="password" placeholder="Enter Password" name="psw" >
-            <label for="psw"><b>Address</b></label>
+            <label for="psw"><b>Address :</b></label>
       <input type="password" placeholder="Enter Password" name="address" >
             <label for="psw"><b>E-mail</b></label>
       <input type="password" placeholder="Enter Password" name="email" >
